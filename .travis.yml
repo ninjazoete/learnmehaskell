@@ -1,3 +1,5 @@
 language: haskell
+install:
+- cabal update
 script:
 - cabal build
